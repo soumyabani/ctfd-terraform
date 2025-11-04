@@ -6,7 +6,7 @@
 This guide details how to:
 - Deploy a CTFd instance on an AWS EC2 server.
 - Install Terraform.
-- Manage CTFd resources (such as challenges, flags, hints) via Terraform using the [ctfer-io/ctfd provider].[1]
+- Manage CTFd resources (such as challenges, flags, hints) via Terraform.
 
 ## Prerequisites
 
