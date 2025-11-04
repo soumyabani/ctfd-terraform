@@ -71,8 +71,6 @@ provider "ctfd" {
 }
 ```
 
-Set your CTFd URL (e.g., http://localhost:8000 or http://<your-ec2-public-ip>:8000) and API token.
-
 ### main.tf example
 
 ```hcl
@@ -108,7 +106,3 @@ resource "ctfd_hint" "http_hint_1" {
 7. Use this token for `var.ctfd_token` in Terraform.
 
 
-
-Would you like sample variable definitions or more advanced Terraform resource examples?
-
-[1](https://github.com/CTFd/CTFd.git)
